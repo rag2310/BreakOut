@@ -141,6 +141,33 @@ BreakOut/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/build
 .PHONY : BreakOut/fast
 
+glad.obj: glad.c.obj
+
+.PHONY : glad.obj
+
+# target to build an object file
+glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/glad.c.obj
+.PHONY : glad.c.obj
+
+glad.i: glad.c.i
+
+.PHONY : glad.i
+
+# target to preprocess a source file
+glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/glad.c.i
+.PHONY : glad.c.i
+
+glad.s: glad.c.s
+
+.PHONY : glad.s
+
+# target to generate assembly for a file
+glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/glad.c.s
+.PHONY : glad.c.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -168,6 +195,222 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/BallObject.obj: src/BallObject.cpp.obj
+
+.PHONY : src/BallObject.obj
+
+# target to build an object file
+src/BallObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/BallObject.cpp.obj
+.PHONY : src/BallObject.cpp.obj
+
+src/BallObject.i: src/BallObject.cpp.i
+
+.PHONY : src/BallObject.i
+
+# target to preprocess a source file
+src/BallObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/BallObject.cpp.i
+.PHONY : src/BallObject.cpp.i
+
+src/BallObject.s: src/BallObject.cpp.s
+
+.PHONY : src/BallObject.s
+
+# target to generate assembly for a file
+src/BallObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/BallObject.cpp.s
+.PHONY : src/BallObject.cpp.s
+
+src/Game.obj: src/Game.cpp.obj
+
+.PHONY : src/Game.obj
+
+# target to build an object file
+src/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Game.cpp.obj
+.PHONY : src/Game.cpp.obj
+
+src/Game.i: src/Game.cpp.i
+
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
+src/GameLevel.obj: src/GameLevel.cpp.obj
+
+.PHONY : src/GameLevel.obj
+
+# target to build an object file
+src/GameLevel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/GameLevel.cpp.obj
+.PHONY : src/GameLevel.cpp.obj
+
+src/GameLevel.i: src/GameLevel.cpp.i
+
+.PHONY : src/GameLevel.i
+
+# target to preprocess a source file
+src/GameLevel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/GameLevel.cpp.i
+.PHONY : src/GameLevel.cpp.i
+
+src/GameLevel.s: src/GameLevel.cpp.s
+
+.PHONY : src/GameLevel.s
+
+# target to generate assembly for a file
+src/GameLevel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/GameLevel.cpp.s
+.PHONY : src/GameLevel.cpp.s
+
+src/GameObject.obj: src/GameObject.cpp.obj
+
+.PHONY : src/GameObject.obj
+
+# target to build an object file
+src/GameObject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/GameObject.cpp.obj
+.PHONY : src/GameObject.cpp.obj
+
+src/GameObject.i: src/GameObject.cpp.i
+
+.PHONY : src/GameObject.i
+
+# target to preprocess a source file
+src/GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/GameObject.cpp.i
+.PHONY : src/GameObject.cpp.i
+
+src/GameObject.s: src/GameObject.cpp.s
+
+.PHONY : src/GameObject.s
+
+# target to generate assembly for a file
+src/GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/GameObject.cpp.s
+.PHONY : src/GameObject.cpp.s
+
+src/ResourceManager.obj: src/ResourceManager.cpp.obj
+
+.PHONY : src/ResourceManager.obj
+
+# target to build an object file
+src/ResourceManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.obj
+.PHONY : src/ResourceManager.cpp.obj
+
+src/ResourceManager.i: src/ResourceManager.cpp.i
+
+.PHONY : src/ResourceManager.i
+
+# target to preprocess a source file
+src/ResourceManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.i
+.PHONY : src/ResourceManager.cpp.i
+
+src/ResourceManager.s: src/ResourceManager.cpp.s
+
+.PHONY : src/ResourceManager.s
+
+# target to generate assembly for a file
+src/ResourceManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.s
+.PHONY : src/ResourceManager.cpp.s
+
+src/Shader.obj: src/Shader.cpp.obj
+
+.PHONY : src/Shader.obj
+
+# target to build an object file
+src/Shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Shader.cpp.obj
+.PHONY : src/Shader.cpp.obj
+
+src/Shader.i: src/Shader.cpp.i
+
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
+src/SpriteRenderer.obj: src/SpriteRenderer.cpp.obj
+
+.PHONY : src/SpriteRenderer.obj
+
+# target to build an object file
+src/SpriteRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.obj
+.PHONY : src/SpriteRenderer.cpp.obj
+
+src/SpriteRenderer.i: src/SpriteRenderer.cpp.i
+
+.PHONY : src/SpriteRenderer.i
+
+# target to preprocess a source file
+src/SpriteRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.i
+.PHONY : src/SpriteRenderer.cpp.i
+
+src/SpriteRenderer.s: src/SpriteRenderer.cpp.s
+
+.PHONY : src/SpriteRenderer.s
+
+# target to generate assembly for a file
+src/SpriteRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.s
+.PHONY : src/SpriteRenderer.cpp.s
+
+src/Texture2D.obj: src/Texture2D.cpp.obj
+
+.PHONY : src/Texture2D.obj
+
+# target to build an object file
+src/Texture2D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Texture2D.cpp.obj
+.PHONY : src/Texture2D.cpp.obj
+
+src/Texture2D.i: src/Texture2D.cpp.i
+
+.PHONY : src/Texture2D.i
+
+# target to preprocess a source file
+src/Texture2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Texture2D.cpp.i
+.PHONY : src/Texture2D.cpp.i
+
+src/Texture2D.s: src/Texture2D.cpp.s
+
+.PHONY : src/Texture2D.s
+
+# target to generate assembly for a file
+src/Texture2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BreakOut.dir\build.make CMakeFiles/BreakOut.dir/src/Texture2D.cpp.s
+.PHONY : src/Texture2D.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,9 +420,36 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BreakOut
+	@echo ... glad.obj
+	@echo ... glad.i
+	@echo ... glad.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/BallObject.obj
+	@echo ... src/BallObject.i
+	@echo ... src/BallObject.s
+	@echo ... src/Game.obj
+	@echo ... src/Game.i
+	@echo ... src/Game.s
+	@echo ... src/GameLevel.obj
+	@echo ... src/GameLevel.i
+	@echo ... src/GameLevel.s
+	@echo ... src/GameObject.obj
+	@echo ... src/GameObject.i
+	@echo ... src/GameObject.s
+	@echo ... src/ResourceManager.obj
+	@echo ... src/ResourceManager.i
+	@echo ... src/ResourceManager.s
+	@echo ... src/Shader.obj
+	@echo ... src/Shader.i
+	@echo ... src/Shader.s
+	@echo ... src/SpriteRenderer.obj
+	@echo ... src/SpriteRenderer.i
+	@echo ... src/SpriteRenderer.s
+	@echo ... src/Texture2D.obj
+	@echo ... src/Texture2D.i
+	@echo ... src/Texture2D.s
 .PHONY : help
 
 

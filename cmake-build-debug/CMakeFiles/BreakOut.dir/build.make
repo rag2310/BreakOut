@@ -76,6 +76,7 @@ include CMakeFiles/BreakOut.dir/progress.make
 include CMakeFiles/BreakOut.dir/flags.make
 
 CMakeFiles/BreakOut.dir/main.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/main.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
 CMakeFiles/BreakOut.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BreakOut.dir/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\main.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\main.cpp
@@ -88,19 +89,163 @@ CMakeFiles/BreakOut.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\main.cpp -o CMakeFiles\BreakOut.dir\main.cpp.s
 
+CMakeFiles/BreakOut.dir/src/Game.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/Game.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/Game.cpp.obj: ../src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BreakOut.dir/src/Game.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\Game.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Game.cpp
+
+CMakeFiles/BreakOut.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/Game.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Game.cpp > CMakeFiles\BreakOut.dir\src\Game.cpp.i
+
+CMakeFiles/BreakOut.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/Game.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Game.cpp -o CMakeFiles\BreakOut.dir\src\Game.cpp.s
+
+CMakeFiles/BreakOut.dir/src/Shader.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/Shader.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/Shader.cpp.obj: ../src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BreakOut.dir/src/Shader.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\Shader.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Shader.cpp
+
+CMakeFiles/BreakOut.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/Shader.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Shader.cpp > CMakeFiles\BreakOut.dir\src\Shader.cpp.i
+
+CMakeFiles/BreakOut.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/Shader.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Shader.cpp -o CMakeFiles\BreakOut.dir\src\Shader.cpp.s
+
+CMakeFiles/BreakOut.dir/src/Texture2D.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/Texture2D.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/Texture2D.cpp.obj: ../src/Texture2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BreakOut.dir/src/Texture2D.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\Texture2D.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Texture2D.cpp
+
+CMakeFiles/BreakOut.dir/src/Texture2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/Texture2D.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Texture2D.cpp > CMakeFiles\BreakOut.dir\src\Texture2D.cpp.i
+
+CMakeFiles/BreakOut.dir/src/Texture2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/Texture2D.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\Texture2D.cpp -o CMakeFiles\BreakOut.dir\src\Texture2D.cpp.s
+
+CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.obj: ../src/ResourceManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\ResourceManager.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\ResourceManager.cpp
+
+CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\ResourceManager.cpp > CMakeFiles\BreakOut.dir\src\ResourceManager.cpp.i
+
+CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\ResourceManager.cpp -o CMakeFiles\BreakOut.dir\src\ResourceManager.cpp.s
+
+CMakeFiles/BreakOut.dir/glad.c.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/glad.c.obj: CMakeFiles/BreakOut.dir/includes_C.rsp
+CMakeFiles/BreakOut.dir/glad.c.obj: ../glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BreakOut.dir/glad.c.obj"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BreakOut.dir\glad.c.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\glad.c
+
+CMakeFiles/BreakOut.dir/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BreakOut.dir/glad.c.i"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\glad.c > CMakeFiles\BreakOut.dir\glad.c.i
+
+CMakeFiles/BreakOut.dir/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BreakOut.dir/glad.c.s"
+	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\glad.c -o CMakeFiles\BreakOut.dir\glad.c.s
+
+CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.obj: ../src/SpriteRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\SpriteRenderer.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\SpriteRenderer.cpp
+
+CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\SpriteRenderer.cpp > CMakeFiles\BreakOut.dir\src\SpriteRenderer.cpp.i
+
+CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\SpriteRenderer.cpp -o CMakeFiles\BreakOut.dir\src\SpriteRenderer.cpp.s
+
+CMakeFiles/BreakOut.dir/src/GameObject.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/GameObject.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/GameObject.cpp.obj: ../src/GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BreakOut.dir/src/GameObject.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\GameObject.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\GameObject.cpp
+
+CMakeFiles/BreakOut.dir/src/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/GameObject.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\GameObject.cpp > CMakeFiles\BreakOut.dir\src\GameObject.cpp.i
+
+CMakeFiles/BreakOut.dir/src/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/GameObject.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\GameObject.cpp -o CMakeFiles\BreakOut.dir\src\GameObject.cpp.s
+
+CMakeFiles/BreakOut.dir/src/GameLevel.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/GameLevel.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/GameLevel.cpp.obj: ../src/GameLevel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BreakOut.dir/src/GameLevel.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\GameLevel.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\GameLevel.cpp
+
+CMakeFiles/BreakOut.dir/src/GameLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/GameLevel.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\GameLevel.cpp > CMakeFiles\BreakOut.dir\src\GameLevel.cpp.i
+
+CMakeFiles/BreakOut.dir/src/GameLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/GameLevel.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\GameLevel.cpp -o CMakeFiles\BreakOut.dir\src\GameLevel.cpp.s
+
+CMakeFiles/BreakOut.dir/src/BallObject.cpp.obj: CMakeFiles/BreakOut.dir/flags.make
+CMakeFiles/BreakOut.dir/src/BallObject.cpp.obj: CMakeFiles/BreakOut.dir/includes_CXX.rsp
+CMakeFiles/BreakOut.dir/src/BallObject.cpp.obj: ../src/BallObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BreakOut.dir/src/BallObject.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BreakOut.dir\src\BallObject.cpp.obj -c C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\BallObject.cpp
+
+CMakeFiles/BreakOut.dir/src/BallObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BreakOut.dir/src/BallObject.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\BallObject.cpp > CMakeFiles\BreakOut.dir\src\BallObject.cpp.i
+
+CMakeFiles/BreakOut.dir/src/BallObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BreakOut.dir/src/BallObject.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rodolfo_pc\CLionProjects\BreakOut\src\BallObject.cpp -o CMakeFiles\BreakOut.dir\src\BallObject.cpp.s
+
 # Object files for target BreakOut
 BreakOut_OBJECTS = \
-"CMakeFiles/BreakOut.dir/main.cpp.obj"
+"CMakeFiles/BreakOut.dir/main.cpp.obj" \
+"CMakeFiles/BreakOut.dir/src/Game.cpp.obj" \
+"CMakeFiles/BreakOut.dir/src/Shader.cpp.obj" \
+"CMakeFiles/BreakOut.dir/src/Texture2D.cpp.obj" \
+"CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.obj" \
+"CMakeFiles/BreakOut.dir/glad.c.obj" \
+"CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.obj" \
+"CMakeFiles/BreakOut.dir/src/GameObject.cpp.obj" \
+"CMakeFiles/BreakOut.dir/src/GameLevel.cpp.obj" \
+"CMakeFiles/BreakOut.dir/src/BallObject.cpp.obj"
 
 # External object files for target BreakOut
 BreakOut_EXTERNAL_OBJECTS =
 
 BreakOut.exe: CMakeFiles/BreakOut.dir/main.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/Game.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/Shader.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/Texture2D.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/ResourceManager.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/glad.c.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/SpriteRenderer.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/GameObject.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/GameLevel.cpp.obj
+BreakOut.exe: CMakeFiles/BreakOut.dir/src/BallObject.cpp.obj
 BreakOut.exe: CMakeFiles/BreakOut.dir/build.make
 BreakOut.exe: CMakeFiles/BreakOut.dir/linklibs.rsp
 BreakOut.exe: CMakeFiles/BreakOut.dir/objects1.rsp
 BreakOut.exe: CMakeFiles/BreakOut.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BreakOut.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rodolfo_pc\CLionProjects\BreakOut\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable BreakOut.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BreakOut.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
